@@ -2,7 +2,7 @@
 
 > 公益站 + New API 中转站合集：注册送额度、每日签到、免费调 Claude / GPT / Gemini，自动探活实时更新
 
-[![GitHub Stars](https://img.shields.io/github/stars/wynx1123/ai-welfare-hub?style=social)](https://github.com/wynx1123/ai-welfare-hub/stargazers)
+[![GitHub Stars](https://img.shields.io/github/stars/boyan0928/ai-welfare-hub?style=social)](https://github.com/boyan0928/ai-welfare-hub/stargazers)
 [![Live Status](https://img.shields.io/badge/%E6%8E%A2%E6%B4%BB-%E8%87%AA%E5%8A%A8%E6%9B%B4%E6%96%B0-brightgreen)](https://boyan0928.github.io/ai-welfare-hub/)
 
 > 数据快照：2026-11-01 21:45 UTC，由 GitHub Actions 自动抓取更新。

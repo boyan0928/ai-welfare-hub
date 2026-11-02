@@ -245,12 +245,15 @@ ${moreLine}
 > 国内直连推荐：ModelScope 魔搭（阿里）、Z.ai 智谱、AMD Radeon Cloud（中国站）；不想注册的可用 LLM7.io / OVHcloud。
 ` : '';
 
+  const repoPath = String(data.meta.repoUrl || '').replace(/^https?:\/\/github\.com\//, '').replace(/\/$/, '') || 'boyan0928/ai-welfare-hub';
+  const pagesUrl = data.meta.pagesUrl || 'https://boyan0928.github.io/ai-welfare-hub/';
+
   return `# ${data.meta.title}
 
 > ${data.meta.tagline}
 
-[![GitHub Stars](https://img.shields.io/github/stars/wynx1123/ai-welfare-hub?style=social)](https://github.com/wynx1123/ai-welfare-hub/stargazers)
-[![Live Status](https://img.shields.io/badge/%E6%8E%A2%E6%B4%BB-%E8%87%AA%E5%8A%A8%E6%9B%B4%E6%96%B0-brightgreen)](${data.meta.pagesUrl || 'https://wynx1123.github.io/ai-welfare-hub/'})
+[![GitHub Stars](https://img.shields.io/github/stars/${repoPath}?style=social)](${data.meta.repoUrl || `https://github.com/${repoPath}`}/stargazers)
+[![Live Status](https://img.shields.io/badge/%E6%8E%A2%E6%B4%BB-%E8%87%AA%E5%8A%A8%E6%9B%B4%E6%96%B0-brightgreen)](${pagesUrl})
 
 ${genLine}
 
