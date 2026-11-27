@@ -953,6 +953,44 @@
       "community": [
         "Telegram Bot: https://t.me/conduitoff_bot"
       ]
+    },
+    {
+      "id": "beiluo-api",
+      "name": "北洛API",
+      "subtitle": "多模型按量计费中转站，可每日签到领取站内额度",
+      "signupUrl": "https://beiluoxi.xyz/register",
+      "homeUrl": "https://beiluoxi.xyz/",
+      "docsUrl": "https://beiluoxi.xyz/help/_full.html",
+      "pricingApi": "https://beiluoxi.xyz/api/provider/pricing",
+      "tags": [
+        "中转站",
+        "每日签到",
+        "多模型",
+        "OpenAI 兼容"
+      ],
+      "highlights": [
+        "每日签到随机领取 $0.01–$0.10 站内额度；连续签到 7 天可另领 $0.20–$0.30。",
+        "公开人民币价目按模型与分组列出输入、输出及缓存费用。"
+      ],
+      "endpoints": {
+        "openai": "https://beiluoxi.xyz/v1",
+        "anthropic": "https://beiluoxi.xyz"
+      },
+      "register": {
+        "methods": [
+          "邮箱 + 密码"
+        ],
+        "requirements": [
+          "注册时需验证邮箱。"
+        ]
+      },
+      "earnMore": [
+        "登录后打开 https://beiluoxi.xyz/daily-checkin 领取当日签到额度。"
+      ],
+      "modelsNote": "公开价目包含 GPT、Claude、Gemini、DeepSeek 及 Grok。具体可用模型和价格以 https://beiluoxi.xyz/api/provider/pricing 为准。",
+      "caveats": [
+        "常规调用按模型和分组扣费；签到奖励为站内余额。"
+      ]
     }
   ]
 }
